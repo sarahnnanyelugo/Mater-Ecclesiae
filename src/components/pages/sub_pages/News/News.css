@@ -1,0 +1,83 @@
+
+
+
+@media (min-width: 600px) {
+  .flexy{
+display:flex;
+  }
+}
+
+@media (max-width:620px){
+
+
+.newstitle{
+  
+        margin-top:250px !important;
+    padding:3px 3px 3px 3px !important; 
+
+
+}
+
+
+.newstitle a{
+    margin-left:80px !important;
+}
+
+}
+
+.event{
+    height:450px;
+}
+.event1{
+    background-image:url(../../../../assets/flower.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+.event2{
+    background-image:url(../../../../assets/laugh.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    
+}
+
+
+.event3{
+    background-image:url(../../../../assets/nativedancers.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+
+
+.event4{
+    background-image:url(../../../../assets/cake.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+
+.event h6{
+    background-color:white;
+    padding:10px 10px 10px 10px;
+    width:90px;
+    margin-top:100px;
+}
+
+
+.newstitle{
+    background-color:white;
+    height:fit-content;
+        margin-top:270px;
+    padding:8px 10px 8px 10px;
+    border-radius:5px;
+
+}
+
+.newstitle a{
+    margin-left:440px;color:grey;
+}

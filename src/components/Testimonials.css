@@ -1,0 +1,470 @@
+
+
+.slick-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.slick-dots {
+    display: none !important;
+}
+
+
+.slick-next {
+    z-index: 100;
+    width: 0%;
+    position: absolute;
+    display: flex !important;
+    height: 13%;
+    display: none;
+}
+.slick-prev {
+    z-index: 100;
+    width: 0%;
+    position: absolute;
+    display: flex !important;
+    height: 13%;
+}
+
+.slick-next::before, .slick-prev:before {
+    display: none;
+}
+
+.slick-next::after{
+    content: url('../assets/right-long-arrow.png');
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    transform: translate(-75vw,52vh);
+}
+
+.slick-prev::after {
+    content: url('../assets/left-long-arrow.png');
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    transform: translate(22vw ,52vh);
+}
+
+
+
+
+.contents-slide{
+   
+    position: relative;
+    color: rgb(241, 237, 237);
+    top: 4em;
+    width: 45%;
+    display: inline-grid;
+    z-index: 100;
+    flex: 1 1;
+    max-height: 32rem;
+    padding-left: 60px;
+}
+
+
+
+
+.content-coner{
+    display: flex;
+}
+
+
+
+
+.hero-img{
+    background-image: url('../assets/OrangeBck.svg');
+    background-position: -15vw -17px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex: .8;
+    display: flex;
+    height: 40rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.hero-img img{
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 400px;
+    left: 5vw;
+    top: 30%;
+    width: 350px;
+}
+
+
+.date-event{
+    margin: 6rem auto !important;
+    height: 15rem;
+    width: 70%;
+    text-align: center;
+    color: #000;
+}
+
+.date-event label2{
+    font-family:monseratSemi ;
+    color: #F29A38;
+    font-size: 18px;
+}
+
+.date-event h1{
+    font-family: Skia;
+    font-weight: 900;
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.date-event p{
+    font-family:monserat ;
+    margin: 10px 0;
+    height: 10rem;
+    font-size: 18px;
+}
+
+.view-more{
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.view-more h5{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    font-family:monserat ;
+    font-size: 16px;
+    padding-right: 10%;
+}
+
+
+
+
+
+.view-more h5:hover::after{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.view-more h5::after{
+    content: "\01F806";
+    font-size: 25px;
+    transform: translateY(-5px);
+    position: absolute;
+    transition: padding-left 1.5s ease-out;
+}
+
+
+.quote{
+    height: 50px !important;
+    /* width: 50px !important; */
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(30px, 150%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+@media(max-width:620px){
+
+
+.testifier{
+    
+    height:300px !important;
+    padding:0px !important;
+    font-size:12px !important;
+    margin-left:30px;
+
+}
+
+}
+@media(max-width:960px){
+
+
+
+    .contents-slide{
+        /* background-image: url('../assets/Rectangle10024@2x.png'); */
+        background-position: -10vw -17px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: rgb(241, 237, 237);
+        top: 0;
+        width: 100%;
+        display: inline-grid;
+        z-index: 100;
+        flex: 1 1;
+        max-height: 32rem;
+        padding-left: 20px;
+    }
+
+    .slick-prev, .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        transform: translate(21vw, 8rem) !important;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+
+    
+.date-event{
+    height: 100%;
+    width: 100%;
+}
+
+.date-event label2{
+    font-family:monseratSemi ;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.date-event h1{
+    font-family: noteworthy;
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.date-event p{
+    font-family:monserat ;
+    margin: 10px 0;
+    height: 10rem;
+    font-size: 18px;
+}
+
+.view-more{
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.view-more h5{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    font-family:monserat ;
+    font-size: 16px;
+    padding-right: 10%;
+}
+
+
+
+
+.slick-dots {
+   
+    display: none !important;
+ 
+}
+
+.content-coner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.hero-img {
+    background-position: -30vw -17px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex: .8 1;
+    display: flex;
+    height: 40rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.date-event {
+    margin: -1rem auto !important;
+    height: 35rem;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+}
+
+
+
+
+.Tbody{
+margin-top:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.visually-hidden{
+    display: none;
+}
+
+
+
+.carousel-control-next {
+    left: 1vw;
+    transform: rotate(-91deg);
+    position: absolute;
+    margin-top: 15% !important;
+    justify-content: right !important;
+    height: 10px;
+    width: 18px !important;
+    font-size: 50px;
+
+}
+
+.carousel-control-next::after{
+    content: url('../assets/DownArrows.svg');
+    color: #fff;
+    font-size: 54px;
+    z-index: 100;
+    right: 0;
+    width: 20px;
+    height: 80px;
+}
+
+.carousel-control-prev {
+    left: 1.5vw;
+    transform: rotate(91deg) !important;
+    position: absolute;
+    margin-top: 30% !important;
+    justify-content: right !important;
+    height: 10px;
+    font-size: 50px;
+    width: 20px !important;
+}
+
+.carousel-control-prev::after{
+    content: url('../assets/DownArrows.svg');
+    color: #fff;
+    font-size: 54px;
+    z-index: 100;
+    right: 0;
+    width: 20px;
+    height: 80px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    z-index: 20;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    color: transparent!important;
+}
+
+.testimony{
+    color:black;
+    text-align: center;
+}
+/* 
+.testimony img{
+    height:70px;
+    width:80px;
+    margin-left:230px;
+} */
+
+.testifier-pic{
+    height:470px;
+    width:100%;
+    border-radius:50%;
+    background-color:rgb(242,245,255);
+    padding:20px 20px 40px 20px;
+    position:relative;z-index:100000;
+}
+
+.testifier-pic img{
+    width:100%;
+}
+
+.testifier-bg{
+       
+background-image:url('../assets/halfbg.png');
+       background-repeat: no-repeat;
+      background-size:cover;
+     height:500px;
+     transform: rotateZ(30deg);
+     margin-left:-70px;
+}
+
+
+
+.monial{
+ padding-top:100px;
+}
+
+.space{
+    height:200px;
+}
+
+
+
