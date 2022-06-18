@@ -56,8 +56,7 @@ function NavBar() {
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 const openPortalLink = () => {
-  const portal =
-    "https://materecclesiae.vercel.app/about/administrators-message";
+  const portal = "https://eportal.materecclesiaecollege.com";
   window.open(portal);
 };
   return (
@@ -278,7 +277,7 @@ const openPortalLink = () => {
               <li class="item">
                 <a
                   className="portal btn btn-sm"
-                  href="https://materecclesiae.vercel.app/about/administrators-message"
+                  href="https://eportal.materecclesiaecollege.com"
                   target="_blank"
                 >
                   PORTAL
