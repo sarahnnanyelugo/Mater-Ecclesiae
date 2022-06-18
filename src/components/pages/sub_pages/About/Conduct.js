@@ -274,7 +274,7 @@ function Conduct() {
           </div>
         </div>
 
-        <div className=" flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-3 staff">
           <div clasName="col-md-3">
             <div className="col-md-11">
               <img src={Staff1} alt="Header" className="img-fluid" />
