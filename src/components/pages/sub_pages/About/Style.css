@@ -1,8 +1,4 @@
 
-.header-img {
-  position: relative;
-  display: block;
-}
 
 .principals-img{
   width: 100%;
@@ -24,7 +20,7 @@
     position: relative;
     display: block;
     
-    object-fit: center;
+    /* object-fit: center; */
     width:100%
 }
 

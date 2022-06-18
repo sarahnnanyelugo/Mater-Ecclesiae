@@ -20,7 +20,7 @@ function HumanResources() {
   return (
     <>
       <section>
-        <div className="header-img">
+        <div className="header-img ">
           <img src={Pex} alt="Header" className="img-fluid" />
         </div>
       </section>

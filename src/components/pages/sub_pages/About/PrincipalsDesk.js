@@ -60,45 +60,52 @@ function PrincipalsDesk() {
               <header>Proprietor's Message</header>
             </div>
 
-            <img src={Teacher} alt="" className="principals-img" />
             {/* <SideButtons /> */}
 
             <div className=" create">
-              <h3>BIOGRAPHY</h3>
-              <p>
-                HIS EARLY LIFE: Monday, 1st day of June 1959 was a day of great
-                joy in the family of Gregory Obasola and Victoria Oluremi
-                Martins (both of blessed memory). That day witnessed the birth
-                of their third child, the second son of the family. He was
-                christened Alfred Anthony Adewale. His parents who were both
-                teachers hailed from Ake and ljemo in Abeokuta South Local
-                Government Area of Ogun State. The young Alfred Martins had his
-                primary education at St. Augustine Roman Catholic Mission
-                School, ltesi.
-              </p>
+              <div className="col-md-12 flexy">
+                <img src={Teacher} alt="" className="principals-img col-md-4" />
 
-              <p>
-                Alfred was admitted to St. Theresa Minor Seminary, Oke-Are,
-                lbadan for his secondary education from 1971-1976. During this
-                period, the seminary motto: AD ALTARE DEl must have made a deep
-                impression on his tender mind as he tried to discern the
-                genuineness of the call to the priesthood. At the end of his
-                formation in the minor seminary, the young Dewale’, as he was
-                fondly called then, signified his intention to continue the
-                programme of formation for the priesthood in the major seminary
-              </p>
+                <div classname="col-md-8">
+                  <h3>BIOGRAPHY</h3>
+                  <p>
+                    HIS EARLY LIFE: Monday, 1st day of June 1959 was a day of
+                    great joy in the family of Gregory Obasola and Victoria
+                    Oluremi Martins (both of blessed memory). That day witnessed
+                    the birth of their third child, the second son of the
+                    family. He was christened Alfred Anthony Adewale. His
+                    parents who were both teachers hailed from Ake and ljemo in
+                    Abeokuta South Local Government Area of Ogun State. The
+                    young Alfred Martins had his primary education at St.
+                    Augustine Roman Catholic Mission School, ltesi.
+                  </p>
 
-              <h3>SERMINARY LIFE</h3>
+                  <p>
+                    Alfred was admitted to St. Theresa Minor Seminary, Oke-Are,
+                    lbadan for his secondary education from 1971-1976. During
+                    this period, the seminary motto: AD ALTARE DEl must have
+                    made a deep impression on his tender mind as he tried to
+                    discern the genuineness of the call to the priesthood. At
+                    the end of his formation in the minor seminary, the young
+                    Dewale’, as he was fondly called then, signified his
+                    intention to continue the programme of formation for the
+                    priesthood in the major seminary
+                  </p>
+                  <h3>SERMINARY LIFE</h3>
+                  <p>
+                    The newly ordained Revd. Fr. Alfred Martins was assigned to
+                    work after his ordination as an Assistant Administrator at
+                    Holy Cross Cathedral from October 1983 to August 1984. He
+                    was later transferred to St. Gregory’s College, Obalende,
+                    Lagos, where he worked as a teacher and chaplain from
+                    September 1984 to September 1986. During his stay at St
+                    Gregory’s College, he doubled as the priest in-charge of St
+                    Theresa’s Catholic Church Maroko as well as chaplain to Holy
+                    Child College, Obalende. <br />
+                  </p>
+                </div>
+              </div>
               <p>
-                The newly ordained Revd. Fr. Alfred Martins was assigned to work
-                after his ordination as an Assistant Administrator at Holy Cross
-                Cathedral from October 1983 to August 1984. He was later
-                transferred to St. Gregory’s College, Obalende, Lagos, where he
-                worked as a teacher and chaplain from September 1984 to
-                September 1986. During his stay at St Gregory’s College, he
-                doubled as the priest in-charge of St Theresa’s Catholic Church
-                Maroko as well as chaplain to Holy Child College, Obalende.{" "}
-                <br />
                 The natural flair for teaching which Fr. Martins had imbibed
                 from his parents was discovered through these assignments. He
                 was then seconded to the SS Peter and Paul Major Seminary,

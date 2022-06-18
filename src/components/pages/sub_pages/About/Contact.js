@@ -116,7 +116,7 @@ function Contact() {
               {" "}
               <Map />
               <div className="col-md-6">
-                <h3>Get In Touch</h3>
+               
                 <MyForm />
                 <form>
                   <input placeholder="name"/>

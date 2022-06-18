@@ -36,7 +36,7 @@ function MyForm() {
   };
   return (
     <div className="wrap">
-      <h1>How About Them Apples</h1>
+      <h3>Get In Touch</h3>
       {submitting && (
         <div>
           You are submitting the following:
@@ -55,7 +55,12 @@ function MyForm() {
         <fieldset>
           <label>
             <p>Name</p>
-            <input name="name" type="text" onChange={handleChange} value={formData.name || ''}/>
+            <input
+              name="name"
+              type="text"
+              onChange={handleChange}
+              value={formData.name || ""}
+            />
           </label>
         </fieldset>
         <button type="submit">Submit</button>

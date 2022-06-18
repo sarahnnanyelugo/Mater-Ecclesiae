@@ -56,7 +56,8 @@ function NavBar() {
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 const openPortalLink = () => {
-  const portal = "https://evergreen.educare.school/";
+  const portal =
+    "https://materecclesiae.vercel.app/about/administrators-message";
   window.open(portal);
 };
   return (
@@ -201,7 +202,7 @@ const openPortalLink = () => {
                     className="nav-links"
                     onClick={closeMobileMenu}
                   >
-                   Faculty & Staff Directory
+                    Faculty & Staff Directory
                   </NavLink>
                 </div>
               </li>
@@ -223,7 +224,7 @@ const openPortalLink = () => {
                     className="nav-links"
                     onClick={closeMobileMenu}
                   >
-                   Admission Form
+                    Admission Form
                   </NavLink>{" "}
                   <NavLink
                     to={"/transfer"}
@@ -240,8 +241,6 @@ const openPortalLink = () => {
                   Academics
                 </a>
                 <div className="subMenu">
-                 
-                  
                   <NavLink
                     to={"/Primary"}
                     className="nav-links"
@@ -279,7 +278,7 @@ const openPortalLink = () => {
               <li class="item">
                 <a
                   className="portal btn btn-sm"
-                  href="https://evergreen.educare.school/"
+                  href="https://materecclesiae.vercel.app/about/administrators-message"
                   target="_blank"
                 >
                   PORTAL

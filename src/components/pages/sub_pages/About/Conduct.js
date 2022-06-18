@@ -75,7 +75,7 @@ function Conduct() {
             <header>Faculty & Staff Directory</header>
           </div>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className="col-md-12 flexy flexyM col-3 staff">
           <div clasName="col-md-3">
             <div className="col-md-11">
