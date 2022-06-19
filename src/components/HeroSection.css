@@ -472,7 +472,11 @@ background-image:url('../assets/halfbg2.png');
     margin-top:-16px !important;
 background-color:white;
 }
-
+.help:hover{
+background-color:rgb(9,43,130);
+color:white;
+transition: 0.5s all;
+}
 .enquire-fixed{
       padding: 20px 0 27px 15px;
        margin-top:-17px !important;
@@ -497,6 +501,23 @@ height:3.4rem !important;
     font-size: 16px;
     text-decoration:none;
 }
+
+
+.search-fixed a:hover,.visit-fixed a:hover,.apply-fixed a:hover, .enquire-fixed a:hover{
+  color:white !important
+;
+  transition: 0.5s all;
+
+}
+
+.search-fixed{
+width:80px;
+height:-5px
+}
+
+
+
+
 
 .hooked-cov{
     position: fixed;
@@ -1277,39 +1298,29 @@ width:100%;
 .ico{
     font-size:60px;
 }
-/* 
-
-.pos1 img{
-     margin-top:-400px !important; 
-     padding-right:-340px;
-width:50%;
-} */
-
-/* 
-.pos1{
-    background-image:url('../assets/merge1.png');
-    background-size:cover;background-repeat: no-repeat;
-margin-top:-600px; 
-margin-left:50%;
-width:80%;
-height:720px;
-} */
 
 .left-half{
   
-        background-image:url('../assets/halfbg.png');
-/* height:610px; */
 background-repeat: no-repeat;
 background-position: right top;
   background-size: 500px 500px;
-    /* transform: rotate(10deg) !important; */
+           background-image:url('../assets/halfbg.png');
+  z-index: -1;
+animation: Gradient 15s ease infinite;
+}
+
+
+
+.left-half{
+
 
 }
 
+/* 
 .left-half::before{
-  transform: rotate(90deg);
+   transform: rotate(10deg) !important;
 
-}
+} */
 
 .rotor{
   margin-left:200px !important;

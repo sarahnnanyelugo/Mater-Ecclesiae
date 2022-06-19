@@ -118,9 +118,7 @@ function Contact() {
               <div className="col-md-6">
                
                 <MyForm />
-                <form>
-                  <input placeholder="name"/>
-                </form>
+                
               </div>
             </div>
           </div>

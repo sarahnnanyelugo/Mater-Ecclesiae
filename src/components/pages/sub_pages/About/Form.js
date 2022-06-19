@@ -15,57 +15,53 @@ const formReducer = (state, event) => {
 };
 
 function MyForm() {
- const [formData, setFormData] = useReducer(formReducer, {});
-  const [submitting, setSubmitting] = useState(false);
+class Reservation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isGoing: true,
+      numberOfGuests: 2,
+    };
 
-  const handleSubmit = event => {
-    event.preventDefault();
-    setSubmitting(true);
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
 
-    setTimeout(() => {
-      setSubmitting(false);
-    }, 3000)
- };
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
 
-
-  const handleChange = (event) => {
-    setFormData({
-      name: event.target.name,
-      value: event.target.value,
+    this.setState({
+      [name]: value,
     });
-  };
-  return (
-    <div className="wrap">
-      <h3>Get In Touch</h3>
-      {submitting && (
-        <div>
-          You are submitting the following:
-          <ul>
-            {Object.entries(formData).map(([name, value]) => (
-              <li key={name}>
-                <strong>{name}</strong>:{value.toString()}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-      {submitting && <div>Submtting Form...</div>}
-      <form onSubmit={handleSubmit}>
-        {" "}
-        <fieldset>
-          <label>
-            <p>Name</p>
-            <input
-              name="name"
-              type="text"
-              onChange={handleChange}
-              value={formData.name || ""}
-            />
-          </label>
-        </fieldset>
-        <button type="submit">Submit</button>
+  }
+
+  render() {
+    return (
+      <form>
+        <label>
+          Is going:
+          <input
+            name="isGoing"
+            type="checkbox"
+            checked={this.state.isGoing}
+            onChange={this.handleInputChange}
+          />
+        </label>
+        <br />
+        <label>
+          Number of guests:
+          <input
+            name="numberOfGuests"
+            type="number"
+            value={this.state.numberOfGuests}
+            onChange={this.handleInputChange}
+          />
+        </label>
       </form>
-    </div>
-  );
+    );
+  }
+}
+  
 }
 export default MyForm;

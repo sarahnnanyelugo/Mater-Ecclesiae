@@ -76,239 +76,257 @@ function Conduct() {
           </div>
         </div>
         {/* <hr /> */}
-        <div className="col-md-12 flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Sis} alt="Header" className="img-fluid" />
               <p>
                 Sr. Regina Ada Odeh Ssma (V.P)
                 <br />
-                <small>V.Principal</small>
+                <small>V.P</small>
               </p>
             </div>
           </div>
 
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Sis2} alt="Header" className="img-fluid" />
               <p>
-                Sr. Felicita-Mary Agbanu <br />
-                <small>V.Principal</small>
+                Sr. Felicita-Mary Agbanu
+                <br />
+                <small>Bursar</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff13} alt="Header" className="img-fluid" />
               <p>
                 Amanyi Louis <br />
-                <small>V.Principal</small>
+                <small>Sciences Teacher</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff12} alt="Header" className="img-fluid" />
               <p>
                 Irekiigbe Adedoyin <br />
-                <small>V.Principal</small>
+                <small>Languages</small>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="col-md-12 flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff8} alt="Header" className="img-fluid" />
               <p>
                 Onoriode Benson <br />
-                <small>V.Principal</small>
+                <small>Vocational Teacher</small>
               </p>
             </div>
           </div>
 
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff9} alt="Header" className="img-fluid" />
               <p>
                 Yusuff Oluwakemi <br />
-                <small>V.Principal</small>
+                <small>Sciences</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff10} alt="Header" className="img-fluid" />
               <p>
                 Madubuike Kingsley C. <br />
-                <small>V.Principal</small>
+                <small>Languages</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff11} alt="Header" className="img-fluid" />
               <p>
-                Eruaga Rita <br />
-                <small>V.Principal</small>
+                Ibrahim Falilat <br />
+                <small>Sciences</small>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="col-md-12 flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff8} alt="Header" className="img-fluid" />
               <p>
-                Odege Sunday <br />
-                <small>V.Principal</small>
+                Eruaga Rita
+                <br />
+                <small>Sciences</small>
               </p>
             </div>
           </div>
 
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff5} alt="Header" className="img-fluid" />
               <p>
-                SUdechukwu Chika <br />
-                <small>V.Principal</small>
+                Odege Sunday <br />
+                <small>Sciences Teacher</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff6} alt="Header" className="img-fluid" />
               <p>
-                Sis Regina Ade adeboye Lawa <br />
-                <small>V.Principal</small>
+                Udechukwu Chika <br />
+                <small>Vocational Teacher</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff7} alt="Header" className="img-fluid" />
-              <p>Nwaobasi Godspower</p>
+              <p>
+                Nwaobasi Godspower <br />
+                <small>Sciences</small>
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="col-md-12 flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-13 staff">
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff1} alt="Header" className="img-fluid" />
               <p>
                 Igoche Anthony <br />
-                <small>V.Principal</small>
+                <small>Sciences</small>
               </p>
             </div>
           </div>
 
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff2} alt="Header" className="img-fluid" />
               <p>
                 Omonua Benjamin <br />
-                <small>V.Principal</small>
+                <small>Social Sciences</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff3} alt="Header" className="img-fluid" />
               <p>
                 Oluwole Esther <br />
-                <small>V.Principal</small>
+                <small>Social Sciences</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff4} alt="Header" className="img-fluid" />
               <p>
                 Yaro Gloria <br />
-                <small>V.Principal</small>
+                <small>Vocational Teacher</small>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="col-md-12 flexy flexyM col-3 staff">
+        <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff1} alt="Header" className="img-fluid" />
               <p>
                 Awuku Kingsley <br />
-                <small>V.Principal</small>
+                <small>Vocational Teacher</small>
               </p>
             </div>
           </div>
 
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12" >
               <img src={Staff2} alt="Header" className="img-fluid" />
               <p>
                 Igwe Jecinta <br />
-                <small>V.Principal</small>
+                <small>Social Sciences</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff3} alt="Header" className="img-fluid" />
               <p>
                 Orkuma Benjamin <br />
-                <small>V.Principal</small>
+                <small>Sciences Teacher</small>
               </p>
             </div>
           </div>
           <div clasName="col-md-3">
-            <div className="col-md-11">
+            <div className="col-md-11 col-12">
               <img src={Staff4} alt="Header" className="img-fluid" />
               <p>
                 Awoyungbo Abiola <br />
-                <small>V.Principal</small>
+                <small>Languages</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-12 flexy flexyM col-12 staff">
+          <div clasName="col-md-3">
+            <div className="col-md-11 col-12">
+              <img src={Staff1} alt="Header" className="img-fluid" />
+              <p>
+                Adefemi Osifodunrin <br />
+                <small>Languages</small>
+              </p>
+            </div>
+          </div>
+
+          <div clasName="col-md-3">
+            <div className="col-md-11 col-12">
+              <img src={Staff2} alt="Header" className="img-fluid" />
+              <p>
+                Jacob James <br />
+                <small>Sciences</small>
+              </p>
+            </div>
+          </div>
+          <div clasName="col-md-3">
+            <div className="col-md-11 col-12">
+              <img src={Staff3} alt="Header" className="img-fluid" />
+              <p>
+                Ani Azubike <br />
+                <small>Sciences</small>
+              </p>
+            </div>
+          </div>
+          <div clasName="col-md-3">
+            <div className="col-md-11 col-12">
+              <img src={Staff4} alt="Header" className="img-fluid" />
+              <p>
+                Olofin Oluwafemi <br />
+                <small>Olofin Oluwafemi</small>
               </p>
             </div>
           </div>
         </div>
 
         <div className="col-md-12 flexy flexyM col-3 staff">
-          <div clasName="col-md-3">
-            <div className="col-md-11">
+          <div clasName="col-md-3 ">
+            <div className="col-md-11 col-12">
               <img src={Staff1} alt="Header" className="img-fluid" />
               <p>
-                Adefemi Osifodunrin <br />
-                <small>V.Principal</small>
-              </p>
-            </div>
-          </div>
-
-          <div clasName="col-md-3">
-            <div className="col-md-11">
-              <img src={Staff2} alt="Header" className="img-fluid" />
-              <p>
-                Jacob James <br />
-                <small>V.Principal</small>
-              </p>
-            </div>
-          </div>
-          <div clasName="col-md-3">
-            <div className="col-md-11">
-              <img src={Staff3} alt="Header" className="img-fluid" />
-              <p>
-                Ani Azubike <br />
-                <small>V.Principal</small>
-              </p>
-            </div>
-          </div>
-          <div clasName="col-md-3">
-            <div className="col-md-11">
-              <img src={Staff4} alt="Header" className="img-fluid" />
-              <p>
-                Olofin Oluwafemi <br />
-                <small>V.Principal</small>
+                Ahmodu Emmanuel
+                <br />
+                <small>Language Teacher</small>
               </p>
             </div>
           </div>

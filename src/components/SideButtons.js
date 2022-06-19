@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import { Link } from "react-router-dom";
+import Search from "../assets/search.svg";
 
 function SideButtons() {
   return (
@@ -9,7 +10,14 @@ function SideButtons() {
         <div className="hooked">
           <div className="search-fixed help">
             {" "}
-            <Link>Search</Link>{" "}
+            <Link>
+              {" "}
+              {/* <span> */}
+                {" "}
+                Search
+                {/* <img src={Search} alt="Header" className="img-fluid" /> */}
+              {/* </span> */}
+            </Link>{" "}
           </div>
           <div className="enquire-fixed help">
             <Link to="/Contact">Enquire</Link>
