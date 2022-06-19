@@ -269,6 +269,42 @@ background-image:url('../assets/halfbg2.png');
     transform: rotate(270deg);
     /* margin-left:250px; */
 }
+
+
+
+
+.testimonial .carousel-control-next::after{
+    content: url('../assets/arrowright.png');
+    /* background-color: red; */
+    font-size: 54px;
+    z-index:100;
+    right: 330px;
+    top:350px;
+    width: 20px;
+    height: 80px;
+    position:absolute;
+    transform: rotate(90deg);
+}
+
+.testimonial .carousel-control-prev::after{
+    content: url('../assets/arrowleft.png');
+    font-size: 54px;
+    z-index: 100;
+    right: -100px;
+    top:-250px;
+    width: 20px;
+    height: 80px;    
+    position:absolute;
+
+    transform: rotate(270deg);
+    /* margin-left:250px; */
+}
+
+
+
+
+
+
 /* 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
@@ -1298,29 +1334,65 @@ width:100%;
 .ico{
     font-size:60px;
 }
-
+/* 
 .left-half{
   
 background-repeat: no-repeat;
 background-position: right top;
   background-size: 500px 500px;
            background-image:url('../assets/halfbg.png');
-  z-index: -1;
-animation: Gradient 15s ease infinite;
-}
+} */
 
 
 
 .left-half{
+  height:500px;
+  /* width:500px; */
+/* background-repeat: no-repeat;
+background-position: right bottom;
+  background-size: cover;
+           background-image:url('../assets/halfbg.png'); */
+           margin-bottom:-450px !important;
 
+
+} 
+
+
+/* 
+.wing{
+animation: rotation 2s infinite ;
 
 }
 
-/* 
-.left-half::before{
-   transform: rotate(10deg) !important;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
 
-} */
+
+@keyframes rotation {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
+
+
+
+ */
+
+
+
+
+.voice{
+    margin-top:-150px;
+}
 
 .rotor{
   margin-left:200px !important;

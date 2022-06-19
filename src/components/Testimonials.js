@@ -15,16 +15,24 @@ import Compute from "../assets/computeMerge.png";
 import "./Testimonials.css";
 
 function Testimonials() {
+  
   return (
     <>
       {/* <div className="space">&nbsp;</div> */}
-      <div className="col-md-12 left-half web-test">
-        <Carousel fade className="col-md-12">
-          <Carousel.Item>
+
+      <div className="col-md-12 flexy">
+        <div className="col-md-8">&nbsp;</div>
+        <div className="left-half col-md-4">
+          <img className=" d-block img-fluid wing" src={Half} alt="Scholar" />
+        </div>
+      </div>
+      <div className="col-md-12  web-test">
+        <Carousel fade className="col-md-12 testimonial">
+          <Carousel.Item index="1">
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6  left-wing test-wing flexy">
                 <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8">
+                <div className="col-md-8 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -55,11 +63,11 @@ function Testimonials() {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item index="2">
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
                 <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8">
+                <div className="col-md-8 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -86,11 +94,11 @@ function Testimonials() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item index="3">
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
                 <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8">
+                <div className="col-md-8 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -120,11 +128,11 @@ function Testimonials() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item index="4">
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
                 <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8">
+                <div className="col-md-8 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -211,7 +219,11 @@ function Testimonials() {
               </div>
               <div className="col-md-7 col-7 mpic">
                 {" "}
-                <img className=" d-block img-fluid " src={Compute} alt="Scholar" />
+                <img
+                  className=" d-block img-fluid "
+                  src={Compute}
+                  alt="Scholar"
+                />
               </div>
             </div>
           </Carousel.Item>
