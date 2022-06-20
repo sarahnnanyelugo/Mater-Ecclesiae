@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import Item from "./Item";
 
 import { Link } from "react-router-dom";
@@ -6,33 +6,65 @@ import Icofont from "react-icofont";
 import Half from "../assets/halfbg.png";
 import Carousel from "react-bootstrap/Carousel";
 import scholar from "../assets/Ellipse1@2x.png";
-import Teach from "../assets/roundMerge.png";
+import Teach from "../assets/roundMerge2.png";
 import Micro from "../assets/micro.png";
 import Aisle from "../assets/aisle.png";
-import Grad from "../assets/gradMerge.png";
-import Compute from "../assets/computeMerge.png";
+import Grad from "../assets/gradMerge2.png";
+import Compute from "../assets/computeMerge2.png";
 
 import "./Testimonials.css";
 
 function Testimonials() {
-  
+  const [wingRotation, setWingRotation] = useState(0);
+  const [wingTop,setWingTop]=useState(0)
+  const [wingLeft,setWingLeft]=useState(70)
+  const setWing = () => {
+    console.log("I got here")
+    if (wingRotation === 45) setWingRotation(0);
+    else setWingRotation(wingRotation + 15);
+
+    if (wingTop === 15) setWingTop(0);
+    else setWingTop(wingTop + 5);
+
+    if (wingLeft === 85) setWingLeft(70);
+    else setWingLeft(wingLeft + 5);
+
+    const wingD = document.querySelector(".wing");
+    if(wingD==null) return;
+    wingD.style.transform = `rotate(${wingRotation}deg)`;
+    wingD.style.top = `${wingTop}%`;
+    wingD.style.left = `${wingLeft}%`;
+  };
+  // setInterval(setWing, 1000);
+  // setWing();
+
+// useEffect(() => {
+//   setInterval(() => {
+//     setWing();
+//   }, 6000);
+// }, []);
   return (
     <>
-      {/* <div className="space">&nbsp;</div> */}
+      {/* <div className="space2">&nbsp;</div> */}
 
-      <div className="col-md-12 flexy">
-        <div className="col-md-8">&nbsp;</div>
-        <div className="left-half col-md-4">
-          <img className=" d-block img-fluid wing" src={Half} alt="Scholar" />
+      <div className="left-half col-md-12 flexy web-test">
+        <div className="col-md-7">&nbsp;</div>
+        <div className="col-md-5">
+          <img
+            className=" d-block img-fluid wing"
+            onClick={setWing}
+            src={Half}
+            alt="Scholar"
+          />
         </div>
       </div>
       <div className="col-md-12  web-test">
         <Carousel fade className="col-md-12 testimonial">
-          <Carousel.Item index="1">
+          <Carousel.Item>
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6  left-wing test-wing flexy">
-                <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8 voice">
+                <div className="col-md-1">&nbsp;</div>
+                <div className="col-md-9 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -63,11 +95,11 @@ function Testimonials() {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item index="2">
+          <Carousel.Item>
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
-                <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8 voice">
+                <div className="col-md-1">&nbsp;</div>
+                <div className="col-md-9 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -94,11 +126,11 @@ function Testimonials() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item index="3">
+          <Carousel.Item>
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
-                <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8 voice">
+                <div className="col-md-1">&nbsp;</div>
+                <div className="col-md-9 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>
@@ -128,11 +160,11 @@ function Testimonials() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item index="4">
+          <Carousel.Item>
             <div ClassName="col-md-12 col-12 flexy">
               <div className="col-md-6 left-wing test-wing flexy">
-                <div className="col-md-2">&nbsp;</div>
-                <div className="col-md-8 voice">
+                <div className="col-md-1">&nbsp;</div>
+                <div className="col-md-9 voice">
                   {" "}
                   <h5>VOICES</h5>
                   <h2>What They Say About US</h2>

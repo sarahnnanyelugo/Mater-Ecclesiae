@@ -5,7 +5,7 @@ import SchLogo from "../assets/mater-logo.png";
 import WaterMark from "../assets/Group1066.png";
 
 import Facebook from "../assets/facebook.svg";
-import Instagram from "../assets/IG.svg";
+import Instagram from "../assets/ig.png";
 import Twitter from "../assets/twitter.svg";
 
 
@@ -33,7 +33,7 @@ const [isShown3, setIsShown3] = useState(true);
               <div
                 onMouseEnter={() => setIsShown(false)}
                 onMouseLeave={() => setIsShown(true)}
-                className={`col-md-12 details ${isShown ? "draw" : ""}`}
+                className={`col-md-12 details ${isShown ? "draw" : "draw"}`}
                 id="draw"
               ></div>
               <div
@@ -53,7 +53,7 @@ const [isShown3, setIsShown3] = useState(true);
               <div
                 onMouseEnter={() => setIsShown2(false)}
                 onMouseLeave={() => setIsShown2(true)}
-                className={`col-md-12 details ${isShown2 ? "draw2" : ""}`}
+                className={`col-md-12 details ${isShown2 ? "draw2" : "draw2"}`}
                 id="draw"
               ></div>
               <div
@@ -76,7 +76,7 @@ const [isShown3, setIsShown3] = useState(true);
               <div
                 onMouseEnter={() => setIsShown3(false)}
                 onMouseLeave={() => setIsShown3(true)}
-                className={`col-md-12 details ${isShown3 ? "draw3" : ""}`}
+                className={`col-md-12 details ${isShown3 ? "draw3" : "draw3"}`}
                 id="draw"
               ></div>
               <div

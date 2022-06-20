@@ -11,7 +11,7 @@ import Books from "../../../../assets/books.png";
 import Cap from "../../../../assets/cap.png";
 
 import Facebook from "../../../../assets/facebook.svg";
-import Instagram from "../../../../assets/IG.svg";
+import Instagram from "../../../../assets/ig.png";
 import Twitter from "../../../../assets/twitter.svg";
 
 // import Circle from "../assets/Circle.svg";
@@ -115,9 +115,10 @@ function Contact() {
             <div className="col-md-12 flexy">
               {" "}
               <Map />
+
               <div className="col-md-6">
                
-                <MyForm />
+                {/* <MyForm /> */}
                 
               </div>
             </div>

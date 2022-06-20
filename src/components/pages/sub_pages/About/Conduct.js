@@ -21,6 +21,14 @@ import Staff1 from "../../../../assets/teacher1.png";
 import Staff2 from "../../../../assets/teacher2.png";
 import Staff3 from "../../../../assets/teacher3.png";
 import Staff4 from "../../../../assets/teacher4.png";
+import One from "../../../../assets/one.png";
+import Two from "../../../../assets/two.png";
+import Three from "../../../../assets/three.png";
+import Four from "../../../../assets/four.png";
+import Five from "../../../../assets/five.png";
+import Seven from "../../../../assets/seven.png";
+import Eight from "../../../../assets/eight.png";
+import Nine from "../../../../assets/nine.png";
 
 import "./Style.css";
 
@@ -242,7 +250,7 @@ function Conduct() {
         <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff1} alt="Header" className="img-fluid" />
+              <img src={One} alt="Header" className="img-fluid" />
               <p>
                 Awuku Kingsley <br />
                 <small>Vocational Teacher</small>
@@ -252,7 +260,7 @@ function Conduct() {
 
           <div clasName="col-md-3">
             <div className="col-md-11 col-12" >
-              <img src={Staff2} alt="Header" className="img-fluid" />
+              <img src={Two} alt="Header" className="img-fluid" />
               <p>
                 Igwe Jecinta <br />
                 <small>Social Sciences</small>
@@ -261,7 +269,7 @@ function Conduct() {
           </div>
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff3} alt="Header" className="img-fluid" />
+              <img src={Three} alt="Header" className="img-fluid" />
               <p>
                 Orkuma Benjamin <br />
                 <small>Sciences Teacher</small>
@@ -270,7 +278,7 @@ function Conduct() {
           </div>
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff4} alt="Header" className="img-fluid" />
+              <img src={Four} alt="Header" className="img-fluid" />
               <p>
                 Awoyungbo Abiola <br />
                 <small>Languages</small>
@@ -282,7 +290,7 @@ function Conduct() {
         <div className="col-md-12 flexy flexyM col-12 staff">
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff1} alt="Header" className="img-fluid" />
+              <img src={Five} alt="Header" className="img-fluid" />
               <p>
                 Adefemi Osifodunrin <br />
                 <small>Languages</small>
@@ -292,7 +300,7 @@ function Conduct() {
 
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff2} alt="Header" className="img-fluid" />
+              <img src={Seven} alt="Header" className="img-fluid" />
               <p>
                 Jacob James <br />
                 <small>Sciences</small>
@@ -301,7 +309,7 @@ function Conduct() {
           </div>
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff3} alt="Header" className="img-fluid" />
+              <img src={Seven} alt="Header" className="img-fluid" />
               <p>
                 Ani Azubike <br />
                 <small>Sciences</small>
@@ -310,7 +318,7 @@ function Conduct() {
           </div>
           <div clasName="col-md-3">
             <div className="col-md-11 col-12">
-              <img src={Staff4} alt="Header" className="img-fluid" />
+              <img src={Eight} alt="Header" className="img-fluid" />
               <p>
                 Olofin Oluwafemi <br />
                 <small>Olofin Oluwafemi</small>
@@ -322,7 +330,7 @@ function Conduct() {
         <div className="col-md-12 flexy flexyM col-3 staff">
           <div clasName="col-md-3 ">
             <div className="col-md-11 col-12">
-              <img src={Staff1} alt="Header" className="img-fluid" />
+              <img src={Nine} alt="Header" className="img-fluid" />
               <p>
                 Ahmodu Emmanuel
                 <br />

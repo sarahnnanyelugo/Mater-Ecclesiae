@@ -1,5 +1,5 @@
 import React from "react";
-import Pex from "../../assets/draw2.png";
+import Pex from "../../assets/chapel.png";
 import { Link } from "react-router-dom";
 
 import Tab from "@material-ui/core/Tab";
@@ -18,7 +18,7 @@ function Gallery() {
   return (
     <>
       <section>
-        <div className="header-img">
+        <div className="header-img gal-img" >
           <img src={Pex} alt="Header" className="img-fluid" />
         </div>
       </section>
@@ -71,7 +71,7 @@ function Gallery() {
             <Tab label="All" />
             <Tab label="Classes" />
             <Tab label="Cultural Events" />
-            <Tab label="Inaugurations" />
+            <Tab label="Social Nights" />
             <Tab label="Sports Contests" />
 
             <Tab label="School Facilities" />

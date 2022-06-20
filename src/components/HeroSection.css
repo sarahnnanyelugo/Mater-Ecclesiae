@@ -1319,13 +1319,10 @@ p{
 }
 /*the style below is for testimonials*/
 
-
-
 .merge img{
   
     /* margin-top:-400px;  */
 margin-left:80%;
-width:100%;
 
 }
 .test-wing{
@@ -1344,87 +1341,31 @@ background-position: right top;
 } */
 
 
-
 .left-half{
-  height:500px;
-  /* width:500px; */
-/* background-repeat: no-repeat;
-background-position: right bottom;
-  background-size: cover;
-           background-image:url('../assets/halfbg.png'); */
-           margin-bottom:-450px !important;
-
-
+  height:1000px !important;
+  /* padding:10px; */
+   /* margin-bottom:-900px !important; */
+ overflow: hidden !important;
+ position: absolute;
 } 
 
-
-/* 
 .wing{
-animation: rotation 2s infinite ;
+  width:100%;
+
+    position:absolute;
+    height:700px;
+    transform:rotate(20deg);
+    left:40%;
+    /* top:-20%; */
+  
 
 }
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
-}
-
-
-@keyframes rotation {
-  from {
-    transform: rotate(20deg);
-  }
-  to {
-    transform: rotate(30deg);
-  }
-}
-
-
-
- */
-
-
 
 
 .voice{
     margin-top:-150px;
 }
 
-.rotor{
-  margin-left:200px !important;
-    transform: rotate(10deg) !important;
-    margin-top:-600px;
-transition:ease 5s !important
-}
-
-
-.rotor2{
-  margin-left:200px !important;
-    transform: rotate(20deg) !important;
-    margin-top:-550px;
-transition:ease 5s !important
-
-}
-
-.rotor3{
-  margin-left:200px !important;
-    transform: rotate(30deg) !important;
-    margin-top:-500px;
-transition:ease 5s !important;
-
-}
-
-.rotor4{
-  margin-left:200px !important;
-    transform: rotate(40deg) !important;
-    margin-top:-450px;
-transition:ease 5s !important
-
-}
 
 
 .topp{
@@ -1433,7 +1374,8 @@ transition:ease 5s !important
 }
 
 .topp img{
-        width:60%
+        width:80%;
+        /* margin-bottom:-10px; */
 
 }
 
@@ -1448,22 +1390,21 @@ transition:ease 5s !important
 
 /*mobile testimonials*/
 
-
 .mobile-side p{
     text-align:center;
 }
 
 .mobile-test{
     margin-top:50px;
-background-image:url('../assets/halfbg3.png');
+background-image:url('../assets/halfbg2.png');
 
 background-repeat: no-repeat;
-background-position: right bottom;
-  background-size: 230px 230px;
+background-position: left top;
+  background-size: 300px 300px;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .mpic{
-    margin-top:-100px;
+    margin-top:-120px;
 }

@@ -14,4 +14,10 @@
   .levt{
  margin-left:100px !important;
   }
+  .gal-img img{
+    height:300px !important;
+  }
+}
+.gal-img img{
+  height:800px;
 }
