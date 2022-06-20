@@ -16,7 +16,10 @@ function Mission() {
           <p>
             We help our students realize their whole potential with a balanced
             approach to education that leads to brilliance.
-          </p>
+          </p>{" "}
+          <a href={"/principal"} className="read3">
+          Read More
+          </a>
           <br /> <br /> <br /> <br />
           <div> </div>
         </div>

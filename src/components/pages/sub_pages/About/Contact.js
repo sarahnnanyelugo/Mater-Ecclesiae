@@ -117,8 +117,7 @@ function Contact() {
               <Map />
 
               <div className="col-md-6">
-               
-                {/* <MyForm /> */}
+                <MyForm />
                 
               </div>
             </div>

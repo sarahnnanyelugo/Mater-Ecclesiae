@@ -531,11 +531,6 @@ label{
 
 
 
-
-input {
-    display: none;
-}
-
 label {
     display: block;    
     padding: 8px 22px;
@@ -558,13 +553,6 @@ label:hover {
     background: inherit;
     color:rgb(9,43,130);
 ;
-}
-
-
-input:checked + label::after {
-    content: '-';
-    right: 14px;
-    top: 3px;
 }
 
 .content {
@@ -590,29 +578,12 @@ input:checked + label::after {
 
 
 
-
-
-
-
-
-input + label + .content {
-    /* display: none; */
-   opacity: 0;
-	height: 0;
-	font-size: 0;
-	padding: 0 25px;
-	transition: ease .5s;
-
+input{
+  width:100%;
+  margin:15px;
+  padding:7px;border-radius: 5px;
+  border-color:rgb(182, 178, 178);
 }
-
-input:checked + label + .content {
-    /* display: block; */
-   opacity: 1;
-min-height: 300px !important;
-	font-size: 14px;
-	padding: 10px 25px;
-}
-
 .cir2{
   height: 90px;
   /* margin-bottom:-12px; */
@@ -620,7 +591,24 @@ min-height: 300px !important;
   margin-top:-40px
 }
 
+.formbutton {
+  color:white !important;
+  border:soild 1px rgb(9,43,130);
+  background-color:rgb(9,43,130);
+  padding:10px 50px;
+  border-radius:35px;
+  font-family:open sans;
+  font-weight:bold;
+  float:right;
+  margin-top:30px;
+}
+.formbutton:hover{
+  background-color:white;
+  color:rgb(9,43,130) !important;
+  
+  
 
+}
 .mov{
   margin-top:-100px !important
 }

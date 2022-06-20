@@ -107,7 +107,7 @@ const openPortalLink = () => {
             onMouseLeave={onMouseLeave}
           >
             <NavLink
-              to={"/learn"}
+              to={"/"}
               className="nav-links"
               onClick={closeMobileMenu}
             >
@@ -207,7 +207,7 @@ const openPortalLink = () => {
               </li>
 
               <li className="item" id="academics">
-                <a href="#academics" class="btn">
+                <a href="#" class="btn">
                   Admission
                 </a>
                 <div className="subMenu">
