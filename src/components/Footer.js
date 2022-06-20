@@ -70,8 +70,9 @@ const [isShown3, setIsShown3] = useState(true);
 
           <div className="col-md-4">
             <a
-              href="https://evergreen.educare.school/admission-form"
+              href="https://eportal.materecclesiaecollege.com"
               className="go"
+              target="_blank"
             >
               <div
                 onMouseEnter={() => setIsShown3(false)}
