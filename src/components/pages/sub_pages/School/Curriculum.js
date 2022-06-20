@@ -8,8 +8,8 @@ import Ball from "../../../../assets/footballMerge.png";
 import Science from "../../../../assets/science.png";
 import Activities from "../../../../assets/sewMerge.png";
 import Clap from "../../../../assets/clap.png";
-import Lab from "../../../../assets/lab.png";
-import Soap from "../../../../assets/soap.png";
+import Lab from "../../../../assets/grotto4.png";
+import Soap from "../../../../assets/procession.png";
 
 // import Sing2 from "../../../../assets/act2.png";
 // import Zoo from "../../../../assets/zoo2.png";
@@ -150,7 +150,7 @@ function Curriculum() {
           </div>
           <div className="col-md-12 space">&nbsp;</div>
 
-          <div className=" flexy flexyM space2">
+          <div className=" flexy flexyM space2  space3">
             <div className="col-md-4">
               <img src={Clap} alt="Header" className="img-fluid" />
             </div>

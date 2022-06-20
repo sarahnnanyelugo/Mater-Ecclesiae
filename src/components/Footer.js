@@ -121,7 +121,7 @@ const [isShown3, setIsShown3] = useState(true);
               <br /> 0807 559 4742
             </p>
             <h5>Enquiries Email</h5>
-            <p>info@materecclesiaecollege@gmai.com</p>
+            <p>Info@materecclesiaecollege.com</p>
             <h5>Address</h5>
             <p>
               Address:
